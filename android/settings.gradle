@@ -1,0 +1,5 @@
+rootProject.name = 'qrcodescanner'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app', ':veridium-fourf-export-ui-release', ':veridium-fourf-ui-release', ':veridium-fourf-ui2-release', ':veridiumid-sdk-release', ':veridium-core-release', ':veridium-camera-common-release', ':veridium-camera2-release', ':veridium-support-release', ':veridium-secure-data-release', ':veridium-fourf-native-release', ':veridium-fourf-export-release', ':veridium-analytics-release', ':veridium-sdk-release', ':veridium-settings-ui-release', ':veridium-camera1-release'
+include ':react-native-linear-gradient'
+project(':react-native-linear-gradient').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-linear-gradient/android')
