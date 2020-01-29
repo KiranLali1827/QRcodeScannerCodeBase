@@ -13,32 +13,85 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		159C213233854BD7882A4968 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1899177662754EF789FE7EA9 /* Foundation.ttf */; };
+		1876276023E0B5F6006ACF3D /* VeridiumAnalytics.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876273E23E0B5F6006ACF3D /* VeridiumAnalytics.framework.dSYM */; };
+		1876276123E0B5F6006ACF3D /* VeridiumUBA.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876273F23E0B5F6006ACF3D /* VeridiumUBA.framework.dSYM */; };
+		1876276223E0B5F6006ACF3D /* VeridiumVFaceBiometrics.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274023E0B5F6006ACF3D /* VeridiumVFaceBiometrics.framework.dSYM */; };
+		1876276323E0B5F6006ACF3D /* VeridiumBiometricsOnly.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274123E0B5F6006ACF3D /* VeridiumBiometricsOnly.framework.dSYM */; };
+		1876276423E0B5F6006ACF3D /* VeridiumForms.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274223E0B5F6006ACF3D /* VeridiumForms.framework.dSYM */; };
+		1876276523E0B5F6006ACF3D /* VeridiumDefault4FExportUI.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274323E0B5F6006ACF3D /* VeridiumDefault4FExportUI.framework.dSYM */; };
+		1876276623E0B5F6006ACF3D /* Veridium4FBiometrics.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274423E0B5F6006ACF3D /* Veridium4FBiometrics.framework.dSYM */; };
+		1876276723E0B5F6006ACF3D /* VeridiumCore.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274523E0B5F6006ACF3D /* VeridiumCore.framework.dSYM */; };
+		1876276823E0B5F6006ACF3D /* VeridiumDefaultVFaceUI.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274623E0B5F6006ACF3D /* VeridiumDefaultVFaceUI.framework.dSYM */; };
+		1876276923E0B5F6006ACF3D /* VeridiumBOPS.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274723E0B5F6006ACF3D /* VeridiumBOPS.framework.dSYM */; };
+		1876276A23E0B5F6006ACF3D /* VeridiumOrchestrator.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274823E0B5F6006ACF3D /* VeridiumOrchestrator.framework.dSYM */; };
+		1876276B23E0B5F6006ACF3D /* Veridium4FUI.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274923E0B5F6006ACF3D /* Veridium4FUI.framework.dSYM */; };
+		1876276C23E0B5F6006ACF3D /* Veridium4FExportUI.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274A23E0B5F6006ACF3D /* Veridium4FExportUI.framework.dSYM */; };
+		1876276D23E0B5F6006ACF3D /* Veridium4FExportBiometrics.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274B23E0B5F6006ACF3D /* Veridium4FExportBiometrics.framework.dSYM */; };
+		1876276E23E0B5F6006ACF3D /* VeridiumQRReader.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274C23E0B5F6006ACF3D /* VeridiumQRReader.framework.dSYM */; };
+		1876276F23E0B5F6006ACF3D /* VeridiumDefault4FUI.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274D23E0B5F6006ACF3D /* VeridiumDefault4FUI.framework.dSYM */; };
+		1876277423E0B7C2006ACF3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876277323E0B7C2006ACF3D /* AppDelegate.swift */; };
+		18BA48E723E0CC3400F5D933 /* Veridium4FUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273C23E0B5F6006ACF3D /* Veridium4FUI.framework */; };
+		18BA48E823E0CC3400F5D933 /* Veridium4FUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273C23E0B5F6006ACF3D /* Veridium4FUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA48EA23E0CC4600F5D933 /* otpadFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273423E0B5F6006ACF3D /* otpadFramework.framework */; };
+		18BA48EB23E0CC4600F5D933 /* otpadFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273423E0B5F6006ACF3D /* otpadFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA48EC23E0CC4800F5D933 /* Veridium4FBiometrics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876274E23E0B5F6006ACF3D /* Veridium4FBiometrics.framework */; };
+		18BA48ED23E0CC4800F5D933 /* Veridium4FBiometrics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876274E23E0B5F6006ACF3D /* Veridium4FBiometrics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA48EE23E0CC4900F5D933 /* Veridium4FExportBiometrics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273023E0B5F6006ACF3D /* Veridium4FExportBiometrics.framework */; };
+		18BA48EF23E0CC4900F5D933 /* Veridium4FExportBiometrics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273023E0B5F6006ACF3D /* Veridium4FExportBiometrics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA48F023E0CC4B00F5D933 /* Veridium4FExportUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876274F23E0B5F6006ACF3D /* Veridium4FExportUI.framework */; };
+		18BA48F123E0CC4B00F5D933 /* Veridium4FExportUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876274F23E0B5F6006ACF3D /* Veridium4FExportUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA48F223E0CC4D00F5D933 /* VeridiumAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876272F23E0B5F6006ACF3D /* VeridiumAnalytics.framework */; };
+		18BA48F323E0CC4D00F5D933 /* VeridiumAnalytics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876272F23E0B5F6006ACF3D /* VeridiumAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA48F423E0CC4F00F5D933 /* VeridiumBiometricsOnly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876272E23E0B5F6006ACF3D /* VeridiumBiometricsOnly.framework */; };
+		18BA48F523E0CC4F00F5D933 /* VeridiumBiometricsOnly.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876272E23E0B5F6006ACF3D /* VeridiumBiometricsOnly.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA48F623E0CC5000F5D933 /* VeridiumBOPS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876272D23E0B5F6006ACF3D /* VeridiumBOPS.framework */; };
+		18BA48F723E0CC5000F5D933 /* VeridiumBOPS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876272D23E0B5F6006ACF3D /* VeridiumBOPS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA48F823E0CC5300F5D933 /* VeridiumCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273623E0B5F6006ACF3D /* VeridiumCore.framework */; };
+		18BA48F923E0CC5300F5D933 /* VeridiumCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273623E0B5F6006ACF3D /* VeridiumCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA48FA23E0CC5500F5D933 /* VeridiumDefault4FExportUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273B23E0B5F6006ACF3D /* VeridiumDefault4FExportUI.framework */; };
+		18BA48FB23E0CC5500F5D933 /* VeridiumDefault4FExportUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273B23E0B5F6006ACF3D /* VeridiumDefault4FExportUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA48FC23E0CC5700F5D933 /* VeridiumDefault4FUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273223E0B5F6006ACF3D /* VeridiumDefault4FUI.framework */; };
+		18BA48FD23E0CC5700F5D933 /* VeridiumDefault4FUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273223E0B5F6006ACF3D /* VeridiumDefault4FUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA48FE23E0CC5800F5D933 /* VeridiumDefaultVFaceUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273123E0B5F6006ACF3D /* VeridiumDefaultVFaceUI.framework */; };
+		18BA48FF23E0CC5800F5D933 /* VeridiumDefaultVFaceUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273123E0B5F6006ACF3D /* VeridiumDefaultVFaceUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA490023E0CC5C00F5D933 /* VeridiumForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273923E0B5F6006ACF3D /* VeridiumForms.framework */; };
+		18BA490123E0CC5C00F5D933 /* VeridiumForms.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273923E0B5F6006ACF3D /* VeridiumForms.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA490223E0CC6100F5D933 /* VeridiumIndividualFingerSelector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273523E0B5F6006ACF3D /* VeridiumIndividualFingerSelector.framework */; };
+		18BA490323E0CC6100F5D933 /* VeridiumIndividualFingerSelector.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273523E0B5F6006ACF3D /* VeridiumIndividualFingerSelector.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA490423E0CC6300F5D933 /* VeridiumOrchestrator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273723E0B5F6006ACF3D /* VeridiumOrchestrator.framework */; };
+		18BA490523E0CC6300F5D933 /* VeridiumOrchestrator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273723E0B5F6006ACF3D /* VeridiumOrchestrator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA490623E0CC6500F5D933 /* VeridiumUBA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273323E0B5F6006ACF3D /* VeridiumUBA.framework */; };
+		18BA490723E0CC6500F5D933 /* VeridiumUBA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273323E0B5F6006ACF3D /* VeridiumUBA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA490823E0CC6700F5D933 /* VeridiumQRReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273A23E0B5F6006ACF3D /* VeridiumQRReader.framework */; };
+		18BA490923E0CC6700F5D933 /* VeridiumQRReader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273A23E0B5F6006ACF3D /* VeridiumQRReader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18BA490A23E0CC6800F5D933 /* VeridiumVFaceBiometrics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273823E0B5F6006ACF3D /* VeridiumVFaceBiometrics.framework */; };
+		18BA490B23E0CC6800F5D933 /* VeridiumVFaceBiometrics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273823E0B5F6006ACF3D /* VeridiumVFaceBiometrics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* qrcodescannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* qrcodescannerTests.m */; };
 		3658C923B87CF990C8112B1E /* libPods-qrcodescanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 855AB6FCC73E4EF96DC17020 /* libPods-qrcodescanner.a */; };
-		90EDBC2EA1EC2B85075E4D06 /* libPods-qrcodescannerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD0D6C17D421C769CE8207C /* libPods-qrcodescannerTests.a */; };
-		DE58B2ECB09650C20834B4D6 /* libPods-qrcodescanner-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB436FEE28B51B89B0082B1 /* libPods-qrcodescanner-tvOS.a */; };
-		744CE7F74E28428DBF5C2FD5 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69414F5DE7EF48BF84FA308C /* AntDesign.ttf */; };
 		3BCEDD9063544B178A0B8ECB /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BFD5F0631014BEE8F8E2343 /* Entypo.ttf */; };
-		442A1B86726345E4BD7FA7AD /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C9F1D1BA70348C19D3CA302 /* EvilIcons.ttf */; };
-		A28EA9CBEC754EA7948F18E0 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 092225E718E74EE9824EB55D /* Feather.ttf */; };
-		E504612A5B5D4D0B8AA21436 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FA4D9CC5A7649A1B01E2ACF /* FontAwesome.ttf */; };
-		F0B81941865A4FED88ECB511 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3492543435AA4A52A48ADD6B /* FontAwesome5_Brands.ttf */; };
-		F7157FA479484266BCC4233C /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EF18CC1C6BB4391A1CD8D52 /* FontAwesome5_Regular.ttf */; };
-		BE9BD2B4BD474F2A9ADAB2AB /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FB6D9AEDFF84786998DD919 /* FontAwesome5_Solid.ttf */; };
-		A6E89D5A498A4CF0966C5B2C /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FA61E975B1948518D737C9D /* Fontisto.ttf */; };
-		159C213233854BD7882A4968 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1899177662754EF789FE7EA9 /* Foundation.ttf */; };
-		9B513930200448A297C0F541 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0811A7EB74E00A7A934FA /* Ionicons.ttf */; };
-		E55D3B30BEB246F39D715C3E /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 960ABB6E78744E3EA606CBF9 /* MaterialCommunityIcons.ttf */; };
 		3D6A01543DD54965AC1AEA84 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2DA02601C7F40FEA9EFF6D7 /* MaterialIcons.ttf */; };
-		DCA0E97C80234DDD982FA333 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AC5FBADBB084C94AAE8DDE5 /* Octicons.ttf */; };
+		442A1B86726345E4BD7FA7AD /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C9F1D1BA70348C19D3CA302 /* EvilIcons.ttf */; };
 		59D06D5198054D9FA30D1D98 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05F52650235C4534ACF2064A /* Roboto_medium.ttf */; };
-		DE6C6025137F422FAED7979B /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F52D211EA36B4CCDB924064B /* Roboto.ttf */; };
-		D726AA0AB5A046729B6D7BA3 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE95083A48DE446F86926DE3 /* rubicon-icon-font.ttf */; };
+		744CE7F74E28428DBF5C2FD5 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69414F5DE7EF48BF84FA308C /* AntDesign.ttf */; };
+		90EDBC2EA1EC2B85075E4D06 /* libPods-qrcodescannerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD0D6C17D421C769CE8207C /* libPods-qrcodescannerTests.a */; };
+		9B513930200448A297C0F541 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0811A7EB74E00A7A934FA /* Ionicons.ttf */; };
+		A28EA9CBEC754EA7948F18E0 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 092225E718E74EE9824EB55D /* Feather.ttf */; };
+		A6E89D5A498A4CF0966C5B2C /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FA61E975B1948518D737C9D /* Fontisto.ttf */; };
+		BE9BD2B4BD474F2A9ADAB2AB /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FB6D9AEDFF84786998DD919 /* FontAwesome5_Solid.ttf */; };
 		C7BFD8A824324963AC46E096 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38C54F6314894D60B6D95D25 /* SimpleLineIcons.ttf */; };
+		D726AA0AB5A046729B6D7BA3 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE95083A48DE446F86926DE3 /* rubicon-icon-font.ttf */; };
+		DCA0E97C80234DDD982FA333 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AC5FBADBB084C94AAE8DDE5 /* Octicons.ttf */; };
+		DE58B2ECB09650C20834B4D6 /* libPods-qrcodescanner-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB436FEE28B51B89B0082B1 /* libPods-qrcodescanner-tvOS.a */; };
+		DE6C6025137F422FAED7979B /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F52D211EA36B4CCDB924064B /* Roboto.ttf */; };
+		E504612A5B5D4D0B8AA21436 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FA4D9CC5A7649A1B01E2ACF /* FontAwesome.ttf */; };
+		E55D3B30BEB246F39D715C3E /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 960ABB6E78744E3EA606CBF9 /* MaterialCommunityIcons.ttf */; };
+		F0B81941865A4FED88ECB511 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3492543435AA4A52A48ADD6B /* FontAwesome5_Brands.ttf */; };
 		F424273683CF45E69B2A3998 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAE7B8846C104B75A4DF8179 /* Zocial.ttf */; };
+		F7157FA479484266BCC4233C /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EF18CC1C6BB4391A1CD8D52 /* FontAwesome5_Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,11 +111,46 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		18BA48E923E0CC3400F5D933 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				18BA490123E0CC5C00F5D933 /* VeridiumForms.framework in Embed Frameworks */,
+				18BA48F323E0CC4D00F5D933 /* VeridiumAnalytics.framework in Embed Frameworks */,
+				18BA48FB23E0CC5500F5D933 /* VeridiumDefault4FExportUI.framework in Embed Frameworks */,
+				18BA48FF23E0CC5800F5D933 /* VeridiumDefaultVFaceUI.framework in Embed Frameworks */,
+				18BA490323E0CC6100F5D933 /* VeridiumIndividualFingerSelector.framework in Embed Frameworks */,
+				18BA48F523E0CC4F00F5D933 /* VeridiumBiometricsOnly.framework in Embed Frameworks */,
+				18BA48ED23E0CC4800F5D933 /* Veridium4FBiometrics.framework in Embed Frameworks */,
+				18BA48F723E0CC5000F5D933 /* VeridiumBOPS.framework in Embed Frameworks */,
+				18BA490523E0CC6300F5D933 /* VeridiumOrchestrator.framework in Embed Frameworks */,
+				18BA48EB23E0CC4600F5D933 /* otpadFramework.framework in Embed Frameworks */,
+				18BA48EF23E0CC4900F5D933 /* Veridium4FExportBiometrics.framework in Embed Frameworks */,
+				18BA48E823E0CC3400F5D933 /* Veridium4FUI.framework in Embed Frameworks */,
+				18BA48F923E0CC5300F5D933 /* VeridiumCore.framework in Embed Frameworks */,
+				18BA490923E0CC6700F5D933 /* VeridiumQRReader.framework in Embed Frameworks */,
+				18BA490B23E0CC6800F5D933 /* VeridiumVFaceBiometrics.framework in Embed Frameworks */,
+				18BA48F123E0CC4B00F5D933 /* Veridium4FExportUI.framework in Embed Frameworks */,
+				18BA490723E0CC6500F5D933 /* VeridiumUBA.framework in Embed Frameworks */,
+				18BA48FD23E0CC5700F5D933 /* VeridiumDefault4FUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* qrcodescannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qrcodescannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* qrcodescannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qrcodescannerTests.m; sourceTree = "<group>"; };
+		05F52650235C4534ACF2064A /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		092225E718E74EE9824EB55D /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		0DE0811A7EB74E00A7A934FA /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		0FB6D9AEDFF84786998DD919 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* qrcodescanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qrcodescanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = qrcodescanner/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = qrcodescanner/AppDelegate.m; sourceTree = "<group>"; };
@@ -70,41 +158,73 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = qrcodescanner/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = qrcodescanner/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = qrcodescanner/main.m; sourceTree = "<group>"; };
+		1876272D23E0B5F6006ACF3D /* VeridiumBOPS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VeridiumBOPS.framework; sourceTree = "<group>"; };
+		1876272E23E0B5F6006ACF3D /* VeridiumBiometricsOnly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VeridiumBiometricsOnly.framework; sourceTree = "<group>"; };
+		1876272F23E0B5F6006ACF3D /* VeridiumAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VeridiumAnalytics.framework; sourceTree = "<group>"; };
+		1876273023E0B5F6006ACF3D /* Veridium4FExportBiometrics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Veridium4FExportBiometrics.framework; sourceTree = "<group>"; };
+		1876273123E0B5F6006ACF3D /* VeridiumDefaultVFaceUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VeridiumDefaultVFaceUI.framework; sourceTree = "<group>"; };
+		1876273223E0B5F6006ACF3D /* VeridiumDefault4FUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VeridiumDefault4FUI.framework; sourceTree = "<group>"; };
+		1876273323E0B5F6006ACF3D /* VeridiumUBA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VeridiumUBA.framework; sourceTree = "<group>"; };
+		1876273423E0B5F6006ACF3D /* otpadFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = otpadFramework.framework; sourceTree = "<group>"; };
+		1876273523E0B5F6006ACF3D /* VeridiumIndividualFingerSelector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VeridiumIndividualFingerSelector.framework; sourceTree = "<group>"; };
+		1876273623E0B5F6006ACF3D /* VeridiumCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VeridiumCore.framework; sourceTree = "<group>"; };
+		1876273723E0B5F6006ACF3D /* VeridiumOrchestrator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VeridiumOrchestrator.framework; sourceTree = "<group>"; };
+		1876273823E0B5F6006ACF3D /* VeridiumVFaceBiometrics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VeridiumVFaceBiometrics.framework; sourceTree = "<group>"; };
+		1876273923E0B5F6006ACF3D /* VeridiumForms.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VeridiumForms.framework; sourceTree = "<group>"; };
+		1876273A23E0B5F6006ACF3D /* VeridiumQRReader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VeridiumQRReader.framework; sourceTree = "<group>"; };
+		1876273B23E0B5F6006ACF3D /* VeridiumDefault4FExportUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VeridiumDefault4FExportUI.framework; sourceTree = "<group>"; };
+		1876273C23E0B5F6006ACF3D /* Veridium4FUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Veridium4FUI.framework; sourceTree = "<group>"; };
+		1876273E23E0B5F6006ACF3D /* VeridiumAnalytics.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = VeridiumAnalytics.framework.dSYM; sourceTree = "<group>"; };
+		1876273F23E0B5F6006ACF3D /* VeridiumUBA.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = VeridiumUBA.framework.dSYM; sourceTree = "<group>"; };
+		1876274023E0B5F6006ACF3D /* VeridiumVFaceBiometrics.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = VeridiumVFaceBiometrics.framework.dSYM; sourceTree = "<group>"; };
+		1876274123E0B5F6006ACF3D /* VeridiumBiometricsOnly.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = VeridiumBiometricsOnly.framework.dSYM; sourceTree = "<group>"; };
+		1876274223E0B5F6006ACF3D /* VeridiumForms.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = VeridiumForms.framework.dSYM; sourceTree = "<group>"; };
+		1876274323E0B5F6006ACF3D /* VeridiumDefault4FExportUI.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = VeridiumDefault4FExportUI.framework.dSYM; sourceTree = "<group>"; };
+		1876274423E0B5F6006ACF3D /* Veridium4FBiometrics.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Veridium4FBiometrics.framework.dSYM; sourceTree = "<group>"; };
+		1876274523E0B5F6006ACF3D /* VeridiumCore.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = VeridiumCore.framework.dSYM; sourceTree = "<group>"; };
+		1876274623E0B5F6006ACF3D /* VeridiumDefaultVFaceUI.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = VeridiumDefaultVFaceUI.framework.dSYM; sourceTree = "<group>"; };
+		1876274723E0B5F6006ACF3D /* VeridiumBOPS.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = VeridiumBOPS.framework.dSYM; sourceTree = "<group>"; };
+		1876274823E0B5F6006ACF3D /* VeridiumOrchestrator.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = VeridiumOrchestrator.framework.dSYM; sourceTree = "<group>"; };
+		1876274923E0B5F6006ACF3D /* Veridium4FUI.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Veridium4FUI.framework.dSYM; sourceTree = "<group>"; };
+		1876274A23E0B5F6006ACF3D /* Veridium4FExportUI.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Veridium4FExportUI.framework.dSYM; sourceTree = "<group>"; };
+		1876274B23E0B5F6006ACF3D /* Veridium4FExportBiometrics.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Veridium4FExportBiometrics.framework.dSYM; sourceTree = "<group>"; };
+		1876274C23E0B5F6006ACF3D /* VeridiumQRReader.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = VeridiumQRReader.framework.dSYM; sourceTree = "<group>"; };
+		1876274D23E0B5F6006ACF3D /* VeridiumDefault4FUI.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = VeridiumDefault4FUI.framework.dSYM; sourceTree = "<group>"; };
+		1876274E23E0B5F6006ACF3D /* Veridium4FBiometrics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Veridium4FBiometrics.framework; sourceTree = "<group>"; };
+		1876274F23E0B5F6006ACF3D /* Veridium4FExportUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Veridium4FExportUI.framework; sourceTree = "<group>"; };
+		1876277223E0B7C2006ACF3D /* qrcodescanner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "qrcodescanner-Bridging-Header.h"; sourceTree = "<group>"; };
+		1876277323E0B7C2006ACF3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1899177662754EF789FE7EA9 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		1BFD5F0631014BEE8F8E2343 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		1DD0D6C17D421C769CE8207C /* libPods-qrcodescannerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qrcodescannerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* qrcodescanner-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "qrcodescanner-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* qrcodescanner-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "qrcodescanner-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D626D8099A8D5EF92946ADB /* Pods-qrcodescanner-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrcodescanner-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-qrcodescanner-tvOSTests/Pods-qrcodescanner-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		32FF5B65A237079A19DCA867 /* Pods-qrcodescanner-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrcodescanner-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-qrcodescanner-tvOS/Pods-qrcodescanner-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3492543435AA4A52A48ADD6B /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		38C54F6314894D60B6D95D25 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		3EF18CC1C6BB4391A1CD8D52 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		4C9F1D1BA70348C19D3CA302 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		5EEA2BDF8C5B48495FA8529C /* Pods-qrcodescanner-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrcodescanner-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-qrcodescanner-tvOSTests/Pods-qrcodescanner-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		5FA61E975B1948518D737C9D /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		69414F5DE7EF48BF84FA308C /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		6DDBA49A3853EEEBDA828DE9 /* Pods-qrcodescannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrcodescannerTests.debug.xcconfig"; path = "Target Support Files/Pods-qrcodescannerTests/Pods-qrcodescannerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		76F86541602E05B8B7E70CF7 /* libPods-qrcodescanner-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qrcodescanner-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81000D6FB3C3C8589D352E25 /* Pods-qrcodescanner-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrcodescanner-tvOS.release.xcconfig"; path = "Target Support Files/Pods-qrcodescanner-tvOS/Pods-qrcodescanner-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		855AB6FCC73E4EF96DC17020 /* libPods-qrcodescanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qrcodescanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ABAE7C3A660E4CBBE01B9F9 /* Pods-qrcodescannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrcodescannerTests.release.xcconfig"; path = "Target Support Files/Pods-qrcodescannerTests/Pods-qrcodescannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FA4D9CC5A7649A1B01E2ACF /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		960ABB6E78744E3EA606CBF9 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		9AC5FBADBB084C94AAE8DDE5 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		BE95083A48DE446F86926DE3 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		E2DA02601C7F40FEA9EFF6D7 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		EAE7B8846C104B75A4DF8179 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F52D211EA36B4CCDB924064B /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
 		FAB436FEE28B51B89B0082B1 /* libPods-qrcodescanner-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qrcodescanner-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBCFCCFF6E1138ADD69B0D6D /* Pods-qrcodescanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrcodescanner.release.xcconfig"; path = "Target Support Files/Pods-qrcodescanner/Pods-qrcodescanner.release.xcconfig"; sourceTree = "<group>"; };
 		FDC14A44EBC107B1AF1813EB /* Pods-qrcodescanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrcodescanner.debug.xcconfig"; path = "Target Support Files/Pods-qrcodescanner/Pods-qrcodescanner.debug.xcconfig"; sourceTree = "<group>"; };
-		69414F5DE7EF48BF84FA308C /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1BFD5F0631014BEE8F8E2343 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4C9F1D1BA70348C19D3CA302 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		092225E718E74EE9824EB55D /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8FA4D9CC5A7649A1B01E2ACF /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3492543435AA4A52A48ADD6B /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3EF18CC1C6BB4391A1CD8D52 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0FB6D9AEDFF84786998DD919 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5FA61E975B1948518D737C9D /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1899177662754EF789FE7EA9 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0DE0811A7EB74E00A7A934FA /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		960ABB6E78744E3EA606CBF9 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E2DA02601C7F40FEA9EFF6D7 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9AC5FBADBB084C94AAE8DDE5 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		05F52650235C4534ACF2064A /* Roboto_medium.ttf */ = {isa = PBXFileReference; name = "Roboto_medium.ttf"; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F52D211EA36B4CCDB924064B /* Roboto.ttf */ = {isa = PBXFileReference; name = "Roboto.ttf"; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BE95083A48DE446F86926DE3 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		38C54F6314894D60B6D95D25 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EAE7B8846C104B75A4DF8179 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +240,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BA48F223E0CC4D00F5D933 /* VeridiumAnalytics.framework in Frameworks */,
+				18BA48F623E0CC5000F5D933 /* VeridiumBOPS.framework in Frameworks */,
+				18BA490023E0CC5C00F5D933 /* VeridiumForms.framework in Frameworks */,
+				18BA48FA23E0CC5500F5D933 /* VeridiumDefault4FExportUI.framework in Frameworks */,
+				18BA48EE23E0CC4900F5D933 /* Veridium4FExportBiometrics.framework in Frameworks */,
+				18BA490423E0CC6300F5D933 /* VeridiumOrchestrator.framework in Frameworks */,
+				18BA490223E0CC6100F5D933 /* VeridiumIndividualFingerSelector.framework in Frameworks */,
+				18BA48F023E0CC4B00F5D933 /* Veridium4FExportUI.framework in Frameworks */,
+				18BA490623E0CC6500F5D933 /* VeridiumUBA.framework in Frameworks */,
+				18BA48F423E0CC4F00F5D933 /* VeridiumBiometricsOnly.framework in Frameworks */,
+				18BA48EC23E0CC4800F5D933 /* Veridium4FBiometrics.framework in Frameworks */,
+				18BA490A23E0CC6800F5D933 /* VeridiumVFaceBiometrics.framework in Frameworks */,
+				18BA48EA23E0CC4600F5D933 /* otpadFramework.framework in Frameworks */,
 				3658C923B87CF990C8112B1E /* libPods-qrcodescanner.a in Frameworks */,
+				18BA48E723E0CC3400F5D933 /* Veridium4FUI.framework in Frameworks */,
+				18BA48FC23E0CC5700F5D933 /* VeridiumDefault4FUI.framework in Frameworks */,
+				18BA48F823E0CC5300F5D933 /* VeridiumCore.framework in Frameworks */,
+				18BA490823E0CC6700F5D933 /* VeridiumQRReader.framework in Frameworks */,
+				18BA48FE23E0CC5800F5D933 /* VeridiumDefaultVFaceUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +301,7 @@
 		13B07FAE1A68108700A75B9A /* qrcodescanner */ = {
 			isa = PBXGroup;
 			children = (
+				1876272B23E0B5F6006ACF3D /* Frameworks */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -172,6 +311,63 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = qrcodescanner;
+			sourceTree = "<group>";
+		};
+		1876272B23E0B5F6006ACF3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1876272C23E0B5F6006ACF3D /* Release_iPhoneOS */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		1876272C23E0B5F6006ACF3D /* Release_iPhoneOS */ = {
+			isa = PBXGroup;
+			children = (
+				1876272D23E0B5F6006ACF3D /* VeridiumBOPS.framework */,
+				1876272E23E0B5F6006ACF3D /* VeridiumBiometricsOnly.framework */,
+				1876272F23E0B5F6006ACF3D /* VeridiumAnalytics.framework */,
+				1876273023E0B5F6006ACF3D /* Veridium4FExportBiometrics.framework */,
+				1876273123E0B5F6006ACF3D /* VeridiumDefaultVFaceUI.framework */,
+				1876273223E0B5F6006ACF3D /* VeridiumDefault4FUI.framework */,
+				1876273323E0B5F6006ACF3D /* VeridiumUBA.framework */,
+				1876273423E0B5F6006ACF3D /* otpadFramework.framework */,
+				1876273523E0B5F6006ACF3D /* VeridiumIndividualFingerSelector.framework */,
+				1876273623E0B5F6006ACF3D /* VeridiumCore.framework */,
+				1876273723E0B5F6006ACF3D /* VeridiumOrchestrator.framework */,
+				1876273823E0B5F6006ACF3D /* VeridiumVFaceBiometrics.framework */,
+				1876273923E0B5F6006ACF3D /* VeridiumForms.framework */,
+				1876273A23E0B5F6006ACF3D /* VeridiumQRReader.framework */,
+				1876273B23E0B5F6006ACF3D /* VeridiumDefault4FExportUI.framework */,
+				1876273C23E0B5F6006ACF3D /* Veridium4FUI.framework */,
+				1876273D23E0B5F6006ACF3D /* dSYMs */,
+				1876274E23E0B5F6006ACF3D /* Veridium4FBiometrics.framework */,
+				1876274F23E0B5F6006ACF3D /* Veridium4FExportUI.framework */,
+			);
+			path = Release_iPhoneOS;
+			sourceTree = "<group>";
+		};
+		1876273D23E0B5F6006ACF3D /* dSYMs */ = {
+			isa = PBXGroup;
+			children = (
+				1876273E23E0B5F6006ACF3D /* VeridiumAnalytics.framework.dSYM */,
+				1876273F23E0B5F6006ACF3D /* VeridiumUBA.framework.dSYM */,
+				1876274023E0B5F6006ACF3D /* VeridiumVFaceBiometrics.framework.dSYM */,
+				1876274123E0B5F6006ACF3D /* VeridiumBiometricsOnly.framework.dSYM */,
+				1876274223E0B5F6006ACF3D /* VeridiumForms.framework.dSYM */,
+				1876274323E0B5F6006ACF3D /* VeridiumDefault4FExportUI.framework.dSYM */,
+				1876274423E0B5F6006ACF3D /* Veridium4FBiometrics.framework.dSYM */,
+				1876274523E0B5F6006ACF3D /* VeridiumCore.framework.dSYM */,
+				1876274623E0B5F6006ACF3D /* VeridiumDefaultVFaceUI.framework.dSYM */,
+				1876274723E0B5F6006ACF3D /* VeridiumBOPS.framework.dSYM */,
+				1876274823E0B5F6006ACF3D /* VeridiumOrchestrator.framework.dSYM */,
+				1876274923E0B5F6006ACF3D /* Veridium4FUI.framework.dSYM */,
+				1876274A23E0B5F6006ACF3D /* Veridium4FExportUI.framework.dSYM */,
+				1876274B23E0B5F6006ACF3D /* Veridium4FExportBiometrics.framework.dSYM */,
+				1876274C23E0B5F6006ACF3D /* VeridiumQRReader.framework.dSYM */,
+				1876274D23E0B5F6006ACF3D /* VeridiumDefault4FUI.framework.dSYM */,
+			);
+			path = dSYMs;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -212,6 +408,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				1876277323E0B7C2006ACF3D /* AppDelegate.swift */,
 				13B07FAE1A68108700A75B9A /* qrcodescanner */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* qrcodescannerTests */,
@@ -219,6 +416,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				6D4ADDE218BDABD4C2F0CD8D /* Pods */,
 				961E7BAAF2054836B87E0493 /* Resources */,
+				1876277223E0B7C2006ACF3D /* qrcodescanner-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -237,7 +435,7 @@
 			sourceTree = "<group>";
 		};
 		961E7BAAF2054836B87E0493 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				69414F5DE7EF48BF84FA308C /* AntDesign.ttf */,
 				1BFD5F0631014BEE8F8E2343 /* Entypo.ttf */,
@@ -261,7 +459,6 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -295,6 +492,8 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				52182EE74FF4BC1644B3630E /* [CP] Copy Pods Resources */,
+				18BA48E923E0CC3400F5D933 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -359,6 +558,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = J8UB795AA9;
+						LastSwiftMigration = 1130;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -406,25 +606,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1876276923E0B5F6006ACF3D /* VeridiumBOPS.framework.dSYM in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				744CE7F74E28428DBF5C2FD5 /* AntDesign.ttf in Resources */,
 				3BCEDD9063544B178A0B8ECB /* Entypo.ttf in Resources */,
+				1876276723E0B5F6006ACF3D /* VeridiumCore.framework.dSYM in Resources */,
 				442A1B86726345E4BD7FA7AD /* EvilIcons.ttf in Resources */,
+				1876276A23E0B5F6006ACF3D /* VeridiumOrchestrator.framework.dSYM in Resources */,
 				A28EA9CBEC754EA7948F18E0 /* Feather.ttf in Resources */,
 				E504612A5B5D4D0B8AA21436 /* FontAwesome.ttf in Resources */,
 				F0B81941865A4FED88ECB511 /* FontAwesome5_Brands.ttf in Resources */,
+				1876276223E0B5F6006ACF3D /* VeridiumVFaceBiometrics.framework.dSYM in Resources */,
+				1876276D23E0B5F6006ACF3D /* Veridium4FExportBiometrics.framework.dSYM in Resources */,
+				1876276023E0B5F6006ACF3D /* VeridiumAnalytics.framework.dSYM in Resources */,
 				F7157FA479484266BCC4233C /* FontAwesome5_Regular.ttf in Resources */,
 				BE9BD2B4BD474F2A9ADAB2AB /* FontAwesome5_Solid.ttf in Resources */,
 				A6E89D5A498A4CF0966C5B2C /* Fontisto.ttf in Resources */,
 				159C213233854BD7882A4968 /* Foundation.ttf in Resources */,
 				9B513930200448A297C0F541 /* Ionicons.ttf in Resources */,
+				1876276423E0B5F6006ACF3D /* VeridiumForms.framework.dSYM in Resources */,
+				1876276123E0B5F6006ACF3D /* VeridiumUBA.framework.dSYM in Resources */,
 				E55D3B30BEB246F39D715C3E /* MaterialCommunityIcons.ttf in Resources */,
 				3D6A01543DD54965AC1AEA84 /* MaterialIcons.ttf in Resources */,
 				DCA0E97C80234DDD982FA333 /* Octicons.ttf in Resources */,
+				1876276F23E0B5F6006ACF3D /* VeridiumDefault4FUI.framework.dSYM in Resources */,
+				1876276523E0B5F6006ACF3D /* VeridiumDefault4FExportUI.framework.dSYM in Resources */,
 				59D06D5198054D9FA30D1D98 /* Roboto_medium.ttf in Resources */,
+				1876276623E0B5F6006ACF3D /* Veridium4FBiometrics.framework.dSYM in Resources */,
 				DE6C6025137F422FAED7979B /* Roboto.ttf in Resources */,
+				1876276823E0B5F6006ACF3D /* VeridiumDefaultVFaceUI.framework.dSYM in Resources */,
 				D726AA0AB5A046729B6D7BA3 /* rubicon-icon-font.ttf in Resources */,
+				1876276B23E0B5F6006ACF3D /* Veridium4FUI.framework.dSYM in Resources */,
 				C7BFD8A824324963AC46E096 /* SimpleLineIcons.ttf in Resources */,
+				1876276C23E0B5F6006ACF3D /* Veridium4FExportUI.framework.dSYM in Resources */,
+				1876276E23E0B5F6006ACF3D /* VeridiumQRReader.framework.dSYM in Resources */,
+				1876276323E0B5F6006ACF3D /* VeridiumBiometricsOnly.framework.dSYM in Resources */,
 				F424273683CF45E69B2A3998 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +690,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		52182EE74FF4BC1644B3630E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qrcodescanner/Pods-qrcodescanner-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qrcodescanner/Pods-qrcodescanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		62B088AD824C963D61E57678 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -616,6 +880,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1876277423E0B7C2006ACF3D /* AppDelegate.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -670,7 +935,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6DDBA49A3853EEEBDA828DE9 /* Pods-qrcodescannerTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -693,8 +960,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8ABAE7C3A660E4CBBE01B9F9 /* Pods-qrcodescannerTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = qrcodescannerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -714,9 +983,15 @@
 			baseConfigurationReference = FDC14A44EBC107B1AF1813EB /* Pods-qrcodescanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = J8UB795AA9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/Release_iPhoneOS",
+				);
 				INFOPLIST_FILE = qrcodescanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -724,8 +999,11 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.er.ems;
 				PRODUCT_NAME = qrcodescanner;
+				SWIFT_OBJC_BRIDGING_HEADER = "qrcodescanner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -735,8 +1013,14 @@
 			baseConfigurationReference = FBCFCCFF6E1138ADD69B0D6D /* Pods-qrcodescanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J8UB795AA9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/Release_iPhoneOS",
+				);
 				INFOPLIST_FILE = qrcodescanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -744,8 +1028,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.er.ems;
 				PRODUCT_NAME = qrcodescanner;
+				SWIFT_OBJC_BRIDGING_HEADER = "qrcodescanner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -889,6 +1175,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -942,6 +1229,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

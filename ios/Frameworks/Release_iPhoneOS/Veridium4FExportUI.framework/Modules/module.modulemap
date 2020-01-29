@@ -1,0 +1,6 @@
+framework module Veridium4FExportUI {
+  umbrella header "Veridium4FExportUI.h"
+
+  export *
+  module * { export * }
+}

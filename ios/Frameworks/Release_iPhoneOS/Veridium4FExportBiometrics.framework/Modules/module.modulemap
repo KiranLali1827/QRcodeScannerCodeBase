@@ -1,0 +1,6 @@
+framework module Veridium4FExportBiometrics {
+  umbrella header "Veridium4FExportBiometrics.h"
+
+  export *
+  module * { export * }
+}
