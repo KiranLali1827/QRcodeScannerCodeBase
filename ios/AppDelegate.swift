@@ -9,7 +9,7 @@
 import UIKit
 import VeridiumCore
 import Veridium4FExportBiometrics
-//import VeridiumDefault4FExportUI
+import VeridiumDefault4FExportUI
 
 
 @UIApplicationMain
@@ -23,12 +23,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
     {
         // Override point for customization after application launch.
+      
+      
+      /*
+    //check online
+      VeridiumSDK.setup(withOnlineLicensing: license, onSdkLicenseCompletion: { (status, error) in
+        print("the online status = \(status)")
+      }) { (lincsstarts, error) in
+        print("the online lincsstarts = \(lincsstarts)")
+      }
+      */
         
+      
+      
+      
         VeridiumUtils.showWaitingAlert("Initializing SDK")
         VeridiumSDK.setup(withOnlineLicensing: license,
                           onSdkLicenseCompletion: { sdkStatus, error in
+                            print("the sdk status = \(sdkStatus.debugDescription)")
                             print("error is = \(error?.localizedDescription)")
-                    if (error != nil) {
+                    if (error != nil)
+                    {
                         DispatchQueue.main.async {
                             VeridiumUtils.hideWaitingAlert {
                                 VeridiumUtils.alert("Licence enforcer error: \(error?.localizedDescription ?? "")", title: "Licence")
@@ -64,9 +79,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                         }
                     }
                     
-//                    VeridiumSDK.shared.registerDefault4FExExporter(); // Alternatively you could use VeridiumSDK.shared.registerCustom4FExporter() if using the custom ui.
-//                    VeridiumSDK.shared.registerDefault4FExEnroller();
-//                    VeridiumSDK.shared.registerDefault4FExAuthenticator();
+                    VeridiumSDK.shared.registerDefault4FExExporter(); // Alternatively you could use VeridiumSDK.shared.registerCustom4FExporter() if using the custom ui.
+                    VeridiumSDK.shared.registerDefault4FExEnroller();
+                    VeridiumSDK.shared.registerDefault4FExAuthenticator();
         }, onBiolibsCompletion: {licenseStatusDict, error in
             if let licenseStatusDict = licenseStatusDict {
                 DispatchQueue.main.async {
