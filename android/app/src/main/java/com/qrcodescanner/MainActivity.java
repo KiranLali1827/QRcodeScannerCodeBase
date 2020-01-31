@@ -4,6 +4,10 @@ import android.app.Activity;
 import android.os.Bundle;
 
 import com.facebook.react.ReactActivity;
+import com.veridiumid.sdk.VeridiumSDK;
+import com.veridiumid.sdk.activities.DefaultVeridiumSDKModelFactory;
+import com.veridiumid.sdk.defaultdata.VeridiumSDKDataInitializer;
+import com.veridiumid.sdk.fourfexport.VeridiumSDKFourExportFInitializer;
 
 public class MainActivity extends ReactActivity {
 
@@ -13,6 +17,13 @@ public class MainActivity extends ReactActivity {
     SplashScreen.show(this);  // here
     super.onCreate(savedInstanceState);
     mCurrentActivity = this;
+
+//    String fourfLicence = ".........";
+//    VeridiumSDK.init(getBaseContext(),
+//            new DefaultVeridiumSDKModelFactory(getBaseContext()),
+//            new VeridiumSDKFourExportFInitializer(fourfLicence),
+//            new VeridiumSDKDataInitializer()
+//    );
 
   }
 

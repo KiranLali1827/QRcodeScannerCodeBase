@@ -316,6 +316,7 @@
 		1876272B23E0B5F6006ACF3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1876277323E0B7C2006ACF3D /* AppDelegate.swift */,
 				1876272C23E0B5F6006ACF3D /* Release_iPhoneOS */,
 			);
 			path = Frameworks;
@@ -408,7 +409,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				1876277323E0B7C2006ACF3D /* AppDelegate.swift */,
 				13B07FAE1A68108700A75B9A /* qrcodescanner */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* qrcodescannerTests */,

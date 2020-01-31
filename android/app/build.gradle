@@ -181,8 +181,14 @@ android {
     }
 }
 
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
 dependencies {
-    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation fileTree(dir: "libs", include: ["*.jar","*.aar"])
     implementation "com.facebook.react:react-native:0.20.1"
     // From node_modules
 
@@ -205,21 +211,45 @@ dependencies {
     }
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation project(path: ':veridium-support-release')
-    implementation project(path: ':veridium-camera-common-release')
-    implementation project(path: ':veridium-fourf-ui2-release')
-    implementation project(path: ':veridium-fourf-native-release')
-    implementation project(path: ':veridium-camera2-release')
-//    implementation project(path: ':veridium-fourf-export-ui-release')
-    implementation project(path: ':veridium-secure-data-release')
-    implementation project(path: ':veridium-analytics-release')
-    implementation project(path: ':veridium-fourf-ui-release')
-    implementation project(path: ':veridium-fourf-export-release')
-    implementation project(path: ':veridium-sdk-release')
-    implementation project(path: ':veridium-settings-ui-release')
-    implementation project(path: ':veridium-camera1-release')
+
 
         implementation project(':react-native-linear-gradient')
+
+    implementation 'com.example.lib:veridium-analytics-release@aar'
+    implementation 'com.example.lib:veridium-camera1-release@aar'
+    implementation 'com.example.lib:veridium-camera2-release@aar'
+    implementation 'com.example.lib:veridium-camera-common-release@aar'
+    implementation 'com.example.lib:veridium-core-release@aar'
+    implementation 'com.example.lib:veridium-sdk-release@aar'
+    implementation 'com.example.lib:veridium-secure-data-release@aar'
+    implementation 'com.example.lib:veridium-settings-ui-release@aar'
+    implementation 'com.example.lib:veridium-support-release@aar'
+
+
+//    implementation project(':veridium-analytics-release')
+//    implementation project(':veridium-core')
+//    implementation project(':veridium-camera-common')
+//    implementation project(':veridium-camera1')
+//    implementation project(':veridium-camera2')
+//    implementation project(':veridium-support')
+//    implementation project(':veridium-secure-data')
+//    implementation project(':veridium-fourf-native')
+//    implementation project(':veridium-fourf-export')
+//    implementation project(':veridium-fourf-export-ui')
+//    implementation project(':veridium-fourf-export-ui2')
+//    implementation project(':veridium-settings-ui')
+//    implementation project(':veridium-analytics')
+
+//    implementation(name:'veridium-analytics-release', ext:'aar')
+//    implementation(name:'veridium-camera1-release.aar', ext:'aar')
+//    implementation(name:'veridium-camera2-release.aar', ext:'aar')
+//    implementation(name:'veridium-camera-common-release.aar', ext:'aar')
+//    implementation(name:'veridium-core-release.aar', ext:'aar')
+//    implementation(name:'veridium-sdk-release.aar', ext:'aar')
+//    implementation(name:'veridium-secure-data-release.aar', ext:'aar')
+//    implementation(name:'veridium-settings-ui-release.aar', ext:'aar')
+//    implementation(name:'veridium-support-release.aar', ext:'aar')
+
 
 }
 

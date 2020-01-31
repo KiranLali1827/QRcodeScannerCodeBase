@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.qrcodescanner">
 
+
 <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
@@ -17,7 +18,14 @@
   <uses-permission android:name="android.permission.WRITE_CONTACTS" />
   <uses-permission android:name="android.permission.READ_PROFILE" />
   <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.sensor.light" />
     <application
         android:name=".MainApplication"
         android:allowBackup="false"
@@ -26,6 +34,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+
+        <meta-data
+            android:name="com.veridiumid.sdk.LICENSE"
+            android:value="insert SDK license key here" />
+
+
         <activity android:name=".TestActivity"></activity>
         <activity
             android:name=".MainActivity"
