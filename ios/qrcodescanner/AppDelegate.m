@@ -11,6 +11,10 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
+@import VeridiumCore;
+@import Veridium4FExportBiometrics;
+@import VeridiumDefault4FExportUI; // Alternatively you could use @import VeridiumDefault4FUI; if you want to alter the interface.
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
