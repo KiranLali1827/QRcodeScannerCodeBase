@@ -334,6 +334,7 @@
 		1876272B23E0B5F6006ACF3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1876277323E0B7C2006ACF3D /* AppDelegate.swift */,
 				1876272C23E0B5F6006ACF3D /* Release_iPhoneOS */,
 			);
 			path = Frameworks;
