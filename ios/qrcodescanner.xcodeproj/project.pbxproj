@@ -47,7 +47,7 @@
 		1876276D23E0B5F6006ACF3D /* Veridium4FExportBiometrics.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274B23E0B5F6006ACF3D /* Veridium4FExportBiometrics.framework.dSYM */; };
 		1876276E23E0B5F6006ACF3D /* VeridiumQRReader.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274C23E0B5F6006ACF3D /* VeridiumQRReader.framework.dSYM */; };
 		1876276F23E0B5F6006ACF3D /* VeridiumDefault4FUI.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 1876274D23E0B5F6006ACF3D /* VeridiumDefault4FUI.framework.dSYM */; };
-		1876277423E0B7C2006ACF3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876277323E0B7C2006ACF3D /* AppDelegate.swift */; };
+		187BAA6A23F6832E004C1294 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BAA6923F6832E004C1294 /* ViewController.swift */; };
 		18BA48F223E0CC4D00F5D933 /* VeridiumAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876272F23E0B5F6006ACF3D /* VeridiumAnalytics.framework */; };
 		18BA48F323E0CC4D00F5D933 /* VeridiumAnalytics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876272F23E0B5F6006ACF3D /* VeridiumAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		18BA48F423E0CC4F00F5D933 /* VeridiumBiometricsOnly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876272E23E0B5F6006ACF3D /* VeridiumBiometricsOnly.framework */; };
@@ -70,6 +70,7 @@
 		18BA490923E0CC6700F5D933 /* VeridiumQRReader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273A23E0B5F6006ACF3D /* VeridiumQRReader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		18BA490A23E0CC6800F5D933 /* VeridiumVFaceBiometrics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273823E0B5F6006ACF3D /* VeridiumVFaceBiometrics.framework */; };
 		18BA490B23E0CC6800F5D933 /* VeridiumVFaceBiometrics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1876273823E0B5F6006ACF3D /* VeridiumVFaceBiometrics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18F5E55D23F6802D00263616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5E55C23F6802D00263616 /* AppDelegate.swift */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -200,8 +201,9 @@
 		1876274E23E0B5F6006ACF3D /* Veridium4FBiometrics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Veridium4FBiometrics.framework; sourceTree = "<group>"; };
 		1876274F23E0B5F6006ACF3D /* Veridium4FExportUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Veridium4FExportUI.framework; sourceTree = "<group>"; };
 		1876277223E0B7C2006ACF3D /* qrcodescanner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "qrcodescanner-Bridging-Header.h"; sourceTree = "<group>"; };
-		1876277323E0B7C2006ACF3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		187BAA6923F6832E004C1294 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1899177662754EF789FE7EA9 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		18F5E55C23F6802D00263616 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		1BFD5F0631014BEE8F8E2343 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		1DD0D6C17D421C769CE8207C /* libPods-qrcodescannerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qrcodescannerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* qrcodescanner-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "qrcodescanner-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -315,6 +317,7 @@
 				181E66A523E2A3F9004BA6B3 /* ViewControllerPolicy.h */,
 				181E66A623E2A3F9004BA6B3 /* ViewControllerPolicy.m */,
 				185CD25723E2AFF200266261 /* QRCode.storyboard */,
+				187BAA6923F6832E004C1294 /* ViewController.swift */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
@@ -326,6 +329,7 @@
 		185CD25923E2B13300266261 /* TechConstant */ = {
 			isa = PBXGroup;
 			children = (
+				18F5E55C23F6802D00263616 /* AppDelegate.swift */,
 				185CD25A23E2B17500266261 /* TechConstant.swift */,
 			);
 			path = TechConstant;
@@ -334,7 +338,6 @@
 		1876272B23E0B5F6006ACF3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1876277323E0B7C2006ACF3D /* AppDelegate.swift */,
 				1876272C23E0B5F6006ACF3D /* Release_iPhoneOS */,
 			);
 			path = Frameworks;
@@ -428,7 +431,6 @@
 			isa = PBXGroup;
 			children = (
 				185CD25923E2B13300266261 /* TechConstant */,
-				1876277323E0B7C2006ACF3D /* AppDelegate.swift */,
 				13B07FAE1A68108700A75B9A /* qrcodescanner */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* qrcodescannerTests */,
@@ -901,10 +903,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187BAA6A23F6832E004C1294 /* ViewController.swift in Sources */,
 				181E66A723E2A3F9004BA6B3 /* ViewControllerPolicy.m in Sources */,
-				1876277423E0B7C2006ACF3D /* AppDelegate.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				185CD25B23E2B17500266261 /* TechConstant.swift in Sources */,
+				18F5E55D23F6802D00263616 /* AppDelegate.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
